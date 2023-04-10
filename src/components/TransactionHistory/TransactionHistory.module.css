@@ -1,8 +1,23 @@
+table {
+    margin-left: 25px;
+}
+
 th {
-    padding: 10px 45px;
-    background-color: aqua;
+    padding: 15px 95px;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(34, 124, 124);
 }
 
 td {
-    padding: 10px 45px;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(n) {
+    background-color: rgb(206, 240, 240);
+}
+
+tr:nth-child(2n) {
+    background-color: #edf2f2;
 }

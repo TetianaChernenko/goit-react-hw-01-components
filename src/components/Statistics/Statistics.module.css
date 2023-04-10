@@ -1,8 +1,9 @@
 .statistics {
     width: 500px;
-    background-color: #fff;
+    background-color: #ece5e5;
     border-radius: 4px;
     margin-bottom: 25px;
+    margin-left: 25px;
 }
 
 .title {
@@ -15,6 +16,9 @@
 
 .statList {
     display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
 }
 
 .item {
